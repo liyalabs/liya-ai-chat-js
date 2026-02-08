@@ -1,0 +1,50 @@
+{
+  "name": "@liyalabs/liya-ai-chat-js",
+  "version": "1.0.1",
+  "description": "Liya AI Chat - Vanilla JavaScript chat widget for any website",
+  "type": "module",
+  "main": "./dist/liya-chat.umd.js",
+  "module": "./dist/liya-chat.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/liya-chat.es.js",
+      "require": "./dist/liya-chat.umd.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.0"
+  },
+  "keywords": [
+    "chat",
+    "chatbot",
+    "ai",
+    "assistant",
+    "widget",
+    "vanilla",
+    "javascript",
+    "web-component",
+    "liya",
+    "embed"
+  ],
+  "author": "Liya Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liyalabs/liya-ai-chat-js"
+  },
+  "homepage": "https://liyalabs.com"
+}
